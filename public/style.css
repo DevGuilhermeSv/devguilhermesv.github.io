@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: darkslateblue;
   text-align: center;
   color: darkgray;
   font-family: "Times New Roman", Times, serif;
@@ -17,6 +17,7 @@ body {
 .conteudos {
   opacity: 0.3;
   background-color: aliceblue;
+  color: black;
 }
 img {
   width: 80%;
