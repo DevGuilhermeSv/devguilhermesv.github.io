@@ -1,3 +1,24 @@
-body{
-    background-color: lightblue;
+body {
+  background-color: lightblue;
+  text-align: center;
+  color: darkgray;
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("1*l0g2FVIE-Ds8UUSjNtpeEA.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
+
+.conteudos {
+  opacity: 0.3;
+  background-color: aliceblue;
+}
+img {
+  width: 80%;
+  height: 80%;
 }
