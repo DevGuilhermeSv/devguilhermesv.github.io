@@ -8,6 +8,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+#apresentacao{
+  position: relative;
+  margin-top: 50vh;
+  margin-bottom: 50vh;
+}
+
 .right {
   position: absolute;
   right: 0px;
@@ -19,7 +25,17 @@ body {
   background-color: aliceblue;
   color: black;
 }
+
 img {
   width: 80%;
   height: 80%;
+}
+.anime{
+  opacity: 0;
+  transform: translate3d(0,0,-100px);
+  transition: .5s;
+}
+.anime-start{
+  opacity: 1;
+  transform: translate3d(0,0,0);
 }
