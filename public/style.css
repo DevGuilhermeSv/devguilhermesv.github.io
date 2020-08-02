@@ -8,7 +8,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-#apresentacao{
+.apresentacao{
   position: relative;
   margin-top: 50vh;
   margin-bottom: 50vh;
@@ -21,14 +21,13 @@ body {
 }
 
 .conteudos {
-  opacity: 0.3;
-  background-color: aliceblue;
+  
+  background-color:rgba(236, 236, 255, 0.5);
   color: black;
 }
 
-img {
+.img{
   width: 80%;
-  height: 80%;
 }
 .anime{
   opacity: 0;
