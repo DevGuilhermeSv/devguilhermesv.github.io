@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 body {
   background-color: darkslateblue;
   text-align: center;
-  color: darkgray;
-  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
+  font-family: 'Amatic SC', cursive;
   background-image: url("1*l0g2FVIE-Ds8UUSjNtpeEA.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+#textoIncial{
+  font-size: 4em;
+  
 }
 .apresentacao{
   position: relative;
@@ -21,13 +26,32 @@ body {
 }
 
 .conteudos {
-  
+  font-family: 'Times New Roman', Times, serif;
   background-color:rgba(236, 236, 255, 0.5);
   color: black;
 }
 
 .img{
   width: 80%;
+}
+.titulo-principal:after{
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+ }
+ @keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
+.notBgd{
+  background: none;
+  max-height: 40px;
+  max-width: 30px;
 }
 .anime{
   opacity: 0;
