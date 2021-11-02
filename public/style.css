@@ -13,6 +13,10 @@ body {
   font-size: 4em;
   
 }
+#translate-button{
+  font-size: 1.5rem;
+  width: 100px;
+}
 .apresentacao{
   position: relative;
   margin-top: 50vh;

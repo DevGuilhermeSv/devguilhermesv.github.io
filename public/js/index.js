@@ -1,6 +1,6 @@
 $(function(){
   
-       var time = 12000;
+       var time = 9000;
         $('.anime').each(function(){
             
             setTimeout(()=>{
@@ -57,7 +57,7 @@ $(function(){
                 $(elemento).removeAttr('class','titulo-principal');
                }
                  
-            }, 150 * indexador)
+            }, 100 * indexador)
         indexador++;
         
     }
