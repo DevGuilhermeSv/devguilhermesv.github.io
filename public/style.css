@@ -13,7 +13,7 @@ body {
   font-size: 4em;
   
 }
-#translate-button{
+#translate-button a{
   font-size: 1.5rem;
   width: 100px;
 }
