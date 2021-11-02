@@ -4,10 +4,11 @@ body {
   text-align: center;
   color: whitesmoke;
   font-family: 'Amatic SC', cursive;
-  background-image: url("1*l0g2FVIE-Ds8UUSjNtpeEA.jpeg");
+  /* background-image: url("1*l0g2FVIE-Ds8UUSjNtpeEA.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+  background-color: black;
 }
 #textoIncial{
   font-size: 4em;
