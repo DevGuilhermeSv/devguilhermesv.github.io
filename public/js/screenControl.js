@@ -2,30 +2,35 @@
 $('.container').mousemove(function(event){
     window.scrollTo(0,event.clientY*($(this).height()/ window.screen.height));
     
-    console.log(event.clientY*($(this).height()/ window.screen.height));
-    console.log('x: ',event.clientX, 'y: ', event.clientY)
 });
 
+
+$('.eyes').on('click',function(){
+    debugger
+    var copy = $(this).clone();
+    $('#eyes-container').append(copy);
+});
 (async function(){
     
     var heigth = $(document).height();
     var width = $(document).width();
-    $('#eyes').show();
+    var elementLength =$('.eyes').length; 
+    
+    $('.eyes').show();
     while(true){
-        await eyesAnimation(heigth,width);
-        console.log('teste');
+        let element = $('.eyes')[0];
+        await eyesAnimation(heigth,width,element);
     }
 })();
-
-function eyesAnimation (heigth, width){
+/** Animação dos olhos*/
+function eyesAnimation (heigth, width, element){
 return new Promise((resolve)=>{
     setTimeout(()=>{
         
         heigth = getRandomInt(0, heigth);
         width = getRandomInt(0,width);
-        var img = `<img class="notBgd" src="public/img/tenor.gif" alt="">`;
-        $('#eyes').css('top',heigth);
-        $('#eyes').css('left',width);
+        $(element).css('top',heigth);
+        $(element).css('left',width);
         return resolve();
     },3000)
     

@@ -2,7 +2,8 @@
     position: sticky;
     top: 0;
 }
-#eyes{
+.eyes{
+    cursor:pointer;
     position:absolute;
     z-index:1000;
 }
