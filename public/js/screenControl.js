@@ -1,8 +1,8 @@
 /**CONTROLE DE MOVIMENTAÇÃO DE TELA */
-$('.container').mousemove(function(event){
-    window.scrollTo(0,event.clientY*($(this).height()/ window.screen.height));
+//$('.container').mousemove(function(event){
+    //window.scrollTo(0,event.clientY*($(this).height()/ window.screen.height));
     
-});
+//});
 
 
 $('.eyes').on('click',function(){
