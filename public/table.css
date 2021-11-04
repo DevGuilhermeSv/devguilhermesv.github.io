@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+table{
+    margin-top: 3%;
+    color: #fff !important;
+}
+table thead tr th{
+    background-color:darkslateblue;
+    height: 45px;
+    border-top: none !important;
+    text-align:center;
+    font-size: 18px;
+}
+tbody tr:hover{
+    background-color:blanchedalmond! important;
+}

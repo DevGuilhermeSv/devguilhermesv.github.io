@@ -32,7 +32,7 @@ body {
 
 .conteudos {
   font-family: 'Times New Roman', Times, serif;
-  background-color:rgba(236, 236, 255, 0.5);
+  background-color:blanchedalmond;
   color: black;
 }
 
@@ -67,3 +67,4 @@ body {
   opacity: 1;
   transform: translate3d(0,0,0);
 }
+
