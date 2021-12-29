@@ -1,5 +1,5 @@
 .menu{
-    margin-top: 10%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -7,19 +7,22 @@
 }
 
 .menu div {
-    
     cursor: pointer;
     display: flex;
-align-items: center;
-justify-items: center;
-justify-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
 }
+.menu div.menu-circle:hover {
+    background-color: rgb(194, 134, 250);
+}
+
 .menu div.menu-circle{
     
     font-size: 40px;
     border-radius: 50%;
     width: 200px;
-    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
     border: 2px rgb(247, 247, 247) solid;
     height: 200px;
 }
@@ -28,7 +31,34 @@ justify-content: center;
     font-size: 30px;
     border-radius: 10%;
     width: 200px;
-    background-color: rgb(165, 164, 167);
+    background-color: blanchedalmond;
     height: 200px;
     margin: 10px;
+    color: black;
+}
+.menu div.menu-squad:hover{
+
+    box-shadow: 1px 1px 25px 0.5px white;
+
+}
+@media screen and (max-width: 600px) {
+    .menu div.menu-circle{
+    
+        font-size: 20px;
+        border-radius: 50%;
+        width: 100px;
+        background-color: rgb(138, 43, 226);
+        border: 2px rgb(247, 247, 247) solid;
+        height: 100px;
+    }
+    .menu div.menu-squad{
+        
+        font-size: 15px;
+        border-radius: 10%;
+        width: 100px;
+        background-color: blanchedalmond;
+        height: 100px;
+        margin: 5px;
+        color: black;
+    }
 }

@@ -14,12 +14,23 @@ body {
   font-size: 1.5rem;
   width: 100px;
 }
+.container{
+  height: 90vh;
+}
+.default{
+  height: 80%;
+}
+.sobre{
+  overflow-y: scroll;
+  height: 100%;
+}
+}
 .apresentacao{
     display: flex;
-    height: 100vh;
     align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 100%;
   
 }
 
@@ -30,13 +41,14 @@ body {
 }
 
 .conteudos {
+  
   font-family: 'Times New Roman', Times, serif;
   background-color:blanchedalmond;
   color: black;
 }
 .projetos{
   overflow-y: scroll;
-  height: 90vh;
+  height: 100%;
 }
 
 .img{
