@@ -4,10 +4,6 @@ body {
   text-align: center;
   color: whitesmoke;
   font-family: 'Amatic SC', cursive;
-  /* background-image: url("1*l0g2FVIE-Ds8UUSjNtpeEA.jpeg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; */
   background-color: black;
 }
 #textoIncial{
@@ -19,9 +15,12 @@ body {
   width: 100px;
 }
 .apresentacao{
-  position: relative;
-  margin-top: 50vh;
-  margin-bottom: 50vh;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 
 .right {
@@ -34,6 +33,10 @@ body {
   font-family: 'Times New Roman', Times, serif;
   background-color:blanchedalmond;
   color: black;
+}
+.projetos{
+  overflow-y: scroll;
+  height: 90vh;
 }
 
 .img{

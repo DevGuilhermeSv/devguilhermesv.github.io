@@ -1,0 +1,20 @@
+#menu{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#menu div {
+    border-radius: 50%;
+    width: 200px;
+    background-color: blueviolet;
+    border: 2px rgb(247, 247, 247) solid;
+    height: 200px;
+    font-size: 40px;
+    cursor: pointer;
+    display: flex;
+align-items: center;
+justify-items: center;
+justify-content: center;
+}
