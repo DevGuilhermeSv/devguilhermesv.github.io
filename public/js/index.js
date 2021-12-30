@@ -21,8 +21,10 @@ $(function(){
         }
         $('.add-fade').attr('class','anime');
        
-       
-        generateTableOfCurse();
+       setTimeout(()=>{
+        
+             backgroundAnimations();
+       },time)
         
 
 });
@@ -33,7 +35,6 @@ $(function(){
         const element = textoInicial[index];
         filhos.push(element); 
        
-        
     }
     return filhos;
       
@@ -43,7 +44,6 @@ $(function(){
 
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = ' ';
-    
     
     for (let index = 0; index < textoArray.length; index++) {
         const letra = textoArray[index];
@@ -61,7 +61,6 @@ $(function(){
         indexador++;
         
     }
-   
     
 }
 /**Preenche a tabela de Cursos */

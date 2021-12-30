@@ -3,7 +3,20 @@
     top: 0;
 }
 .eyes{
-    cursor:pointer;
     position:absolute;
     z-index:1000;
+    top: 60vh;
+    left: 50vw;
+}
+.snake{
+    position:absolute;
+    z-index:1000;
+    transition-property: top, left;
+    transition-delay: 2s;
+    transition-duration: 3s;
+ 
+}
+.snake .notBgd{
+    max-height: 100px;
+    max-width: 100px;
 }
