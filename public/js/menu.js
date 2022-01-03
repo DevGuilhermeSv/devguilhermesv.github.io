@@ -3,6 +3,12 @@ $(".menu > div.menu-sobre").on('click',()=>{
         $(".default").html(res);
     })
 })
+$(".menu > div.menu-sobre-Eng").on('click',()=>{
+    $.get('/sobre-Eng.html',(res)=>{
+        $(".default").html(res);
+    })
+})
+
 $(".menu > div.menu-projetos").on('click',()=>{
     $.get('/projetos.html',(res)=>{
         $(".default").html(res);
